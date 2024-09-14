@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(40, 38, 38); 
+}
+
+#blue{
+    color: rgb(36, 36, 199);
+}
+
+ul, li, p, h2{
+    color: antiquewhite;
+}
+
