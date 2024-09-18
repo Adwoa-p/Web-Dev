@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Chrome</title>
 </head>
 <body>
-    <img src="https://sl.bing.net/bjlasKljrbw" alt="Error pic">
-    <p><h2>No internet</h2></p>
-    <p>No internet</p>
-    <p>Try: </p>
-    <p>
-        <ul>
-        <li>Checking the network cables, modem and router</li>
-        <li>Reconnecting to Wi-Fi</li>
-        <li id="blue">Running Windows Network Diagnostics</li>
-        </ul>
-    </p>
-    <p>DNS_PROBE_FINISHED_NO_INTERNET</p>
+    <main>
+        <div class="container">
+            <div class="image"> <img src="/network-signal.png" alt=""srcset=""></div>
+            <div class="txt">
+                <h1>No internet</h1>
+                <h3>No internet</h3>
+                <div> 
+                    <p>Try:</p>
+                    <ul>
+                        <li>Checking the network cables, modem and router</li>
+                        <li>Reconnecting to Wi-Fi</li>
+                        <li><span class="selected">Running Windows Network Diagnostics</span></li>
+                    </ul>
+                </div>
+                <footer>DNS_PROBE_FINISHED_NO_INTERNET</footer>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
